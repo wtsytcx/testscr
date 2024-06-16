@@ -2435,7 +2435,7 @@ worldmap[298] = {group: 298, dif: 1, name: '298', map: '4252', route: [252, 239]
 worldmap[299] = {group: 299, dif: 1, name: '299', map: '5171234354567686', route: [279, 218, 225, 218, 247, 236, 237, 207]};
 worldmap[300] = {group: 300, dif: 1, name: '300', map: '516264552696', route: [248, 228, 217, 249, 269, 244]};
 //ТЕСТ
-worldmap[104698] = {group: 104698, dif: 1, name: '', parent: 80, route: []}
+worldmap[104698] = {group: 104699, dif: 1, name: '', parent: 80, route: []}
 worldmap[100201] = {group: 100201, dif: 1, name: 'Пещера отголосков', map: 'Пещера отголосковКП', route: [100208, 100212]};
 worldmap[132056] = {group: 132056, dif: 1, name: 'Потаённый туннель', map: 'Потаённый туннельКП', route: [132056]}; ///////
 worldmap[104710] = {group: 104710, dif: 1, name: 'Лужайка душистых цветов', map: 'Лужайка душистых цветовКП', route: [132056, 100415]};
@@ -2460,11 +2460,11 @@ worldmap[137548] = {group: 137548, dif: 1, name: 'Россыпь камней', 
 worldmap[104702] = {group: 104702, dif: 1, name: 'Заснеженный подъем', map: 'Заснеженный подъемКП', route: [104703, 104700, 100151]};
 worldmap[100151] = {group: 100151, dif: 1, name: 'Каменистые уступы', map: 'Каменистые уступыКП', route: [104702, 104701]};
 worldmap[104703] = {group: 104703, dif: 1, name: 'Горный перевал', map: 'Горный перевалКП', route: [133246, 104703, 104703, 104702, 104703, 100212]};
-worldmap[103527] = {group: 103527, dif: 1, name: 'Непроходимая глушь', map: 'Непроходимая глушьКП', route: []};
-worldmap[126131] = {group: 126131, dif: 1, name: 'Перепутье', map: 'Перепутье45767', route: []};
 worldmap[133246] = {group: 133246, dif: 2, name: 'Тропа храбрых', map: 'Тропа ХрабрыхКП', route: [133246]}; ///////
 //worldmap[] = {group: , dif: 1, name: '', map: 'КП', route: []};
 
+worldmap[103527] = {group: 103527, dif: 1, name: 'Непроходимая глушь', map: 'Непроходимая глушьКП', route: []};
+worldmap[126131] = {group: 126131, dif: 1, name: 'Перепутье', map: 'Перепутье45767', route: []};
 
 makeHiddenListIDbyMap(200, 200, 300, true);
 makeHiddenListIDbyMap(73000, 7000, 7999, true, 23507, true);
