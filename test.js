@@ -53,7 +53,7 @@ worldmap[43] = {group: 0, dif: 1, name: 'Нейтралки: Руины', route:
 worldmap[44] = {group: 0, dif: 1, name: 'Нейтралки: Туннели + остров', route: []};
 worldmap[50] = {group: 0, dif: 1, name: 'Нейтралки', route: []};
 worldmap[70] = {group: 0, dif: 1, name: '7 ДЛ', route: []};
-worldmap[80] = {group: 0, dif: 1, name: 'тест', route: []};
+worldmap[80] = {group: 0, dif: 1, name: 'Тестик', route: []};
 // ==================================================================================
 
 
