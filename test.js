@@ -2436,9 +2436,14 @@ worldmap[299] = {group: 299, dif: 1, name: '299', map: '5171234354567686', route
 worldmap[300] = {group: 300, dif: 1, name: '300', map: '516264552696', route: [248, 228, 217, 249, 269, 244]};
 //ТЕСТ
 worldmap[104699] = {group: 104698, dif: 1, name: '', parent: 80, route: []};
-worldmap[104710] = {group: 104710, dif: 1, name: 'Лужайка душистых цветов', map: 'Лужайка душистых цветовКП', route: [132056, 100415]};
 worldmap[132056] = {group: 132056, dif: 1, name: 'Потаённый туннель', map: 'Потаённый туннельКП', route: [132056]};
+worldmap[104710] = {group: 104710, dif: 1, name: 'Лужайка душистых цветов', map: 'Лужайка душистых цветовКП', route: [132056, 100415]};
 worldmap[100415] = {group: 100415, dif: 1, name: 'Вересковая пустошь', map: 'Вересковая пустошьКП', route: [104708, 104709, 104710]};
+worldmap[104709] = {group: 104709, dif: 1, name: 'Залитый солнцем край', map: 'Залитый солнцем крайКП', route: []};
+worldmap[104708] = {group: 104708, dif: 1, name: 'Равнина вольных ветров', map: 'Равнина вольных ветровКП', route: [100415, 104718]};
+worldmap[104718] = {group: 104708, dif: 1, name: 'Чарующая поляна', map: 'Чарующая полянаКП', route: [100400, 104708]};
+worldmap[100400] = {group: 100400, dif: 1, name: 'Глухая топь', map: 'Глухая топьКП', route: []};
+//worldmap[] = {group: , dif: 1, name: '', map: 'КП', route: []};
 
 makeHiddenListIDbyMap(200, 200, 300, true);
 makeHiddenListIDbyMap(73000, 7000, 7999, true, 23507, true);
