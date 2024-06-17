@@ -161,7 +161,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[10098] = {group: 10001, n: 99, dif: 5, name: 'Лабиринт Безумных Волн', map: 'Лабиринт Безумных Волн6336', route: [10100, 10000]};
     worldmap[10099] = {group: 10001, n: 100, dif: 1, name: 'Лабиринт Безумных Волн', map: 'Лабиринт Безумных Волн933646', route: [10100, 10100, 10000]};    
 
-    worldmap[c] = {group: 10100, dif: 1, name: 'Оазис 1 ЛБВ ЛЗ', map: '56', route: [10001, 10101]}; //ЛБВ-ЛЗ
+    worldmap[10100] = {group: 10100, dif: 1, name: 'Оазис 1 ЛБВ ЛЗ', map: '56', route: [10001, 10101]}; //ЛБВ-ЛЗ
     worldmap[10101] = {group: 10101, count: 99, dif: 5, name: 'Лабиринт Зноя', route: [10100, 10201, 10201]};
 
     worldmap[10201] = {group: 10201, dif: 1, name: 'Оазис 2 ЛЗ ЛОЗ', map: '56', route: [10202, 10101], hr: [{id:10101, x: 5, y:1}]}; //ЛЗ-ЛОЗ
