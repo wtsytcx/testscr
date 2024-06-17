@@ -2805,6 +2805,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     makeHiddenListIDbyMap(10302, 10301, 10299, true, 10302, true);
     makeHiddenListIDbyMap(11001, 11001, 11100, true, 11001, true);
     makeHiddenListIDbyMap(11202, 11202, 11749, true, 11202, true);
+    makeHiddenListIDbyMap(11751, 11751, 12000, true, 11751, true);
 
     [200, 23450, 23453, 23457, 23461, 23491, 23501, 23507, 23514, 23540, 23541, 
      30013, 30000, 30013, 30601, 82927, 73000, 
