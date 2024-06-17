@@ -2706,7 +2706,6 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[104701] = {group: 104701, dif: 1, name: 'Предгорье', map: 'ПредгорьеКП', route: [104705, 100151, 100208]};
     worldmap[104705] = {group: 104705, dif: 1, name: 'Тернистая тропа', map: 'Тернистая тропаКП', route: [104935, 104701, 104704]};
     worldmap[104935] = {group: 104935, dif: 1, name: 'Озеро среди скал', map: 'Озеро среди скалКП', route: [104700, 100413, 104705]};
-    worldmap[100413] = {group: 100413, dif: 1, name: 'Плачущие скалы', map: 'Плачущие скалыКП', route: []}; ///////////////
     worldmap[104700] = {group: 104700, dif: 1, name: 'Горбатый склон', map: 'Горбатый склонКП', route: [137548, 104702, 104935]};
     worldmap[137548] = {group: 137548, dif: 1, name: 'Россыпь камней', map: 'Россыпь камнейКП', route: [104700]};
     worldmap[104702] = {group: 104702, dif: 1, name: 'Заснеженный подъем', map: 'Заснеженный подъемКП', route: [104703, 104700, 100151]};
@@ -2714,6 +2713,19 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[104703] = {group: 104703, dif: 1, name: 'Горный перевал', map: 'Горный перевалКП', route: [133246, 104703, 104703, 104702, 104703, 100212]};
     worldmap[133246] = {group: 133246, dif: 2, name: 'Тропа храбрых', map: 'Тропа ХрабрыхКП', route: []}; ///////
 
+    worldmap[100413] = {group: 100413, dif: 1, name: 'Плачущие скалы', map: 'Плачущие скалыКП', route: [100414, 104935]}; 
+    worldmap[100414] = {group: 100413, dif: 1, name: 'Клыкастая пещера', map: 'Клыкастая пещераКП', route: [128229, 100413]};
+    worldmap[128229] = {group: 100413, dif: 1, name: 'Поющий грот', map: 'Поющий гротКП', route: [134097, 104697, 100414, 139314]};
+    worldmap[139314] = {group: 100413, dif: 1, name: 'Заросшее водорослями ущелье', map: 'Заросшее водорослями ущельеКП', route: [128229]};
+    worldmap[134097] = {group: 100413, dif: 2, name: 'Шумные воды', map: 'Шумные водыКП', route: [135193, 128229]};
+    worldmap[135193] = {group: 100413, dif: 4, name: 'Тёмные глубины', map: 'Тёмные глубиныКП', route: [135193, 134097]};
+    worldmap[128524] = {group: 100413, dif: 6, name: 'Черноводье', map: 'ЧерноводьеКП', route: [135193]};
+    worldmap[104697] = {group: 100413, dif: 1, name: 'Извилистый туннель', map: 'Извилистый туннельКП', route: [128229, 101344]};
+    worldmap[101342] = {group: 100413, dif: 2, name: 'Река призрачных душ', map: 'Река призрачных душКП', route: [104697, 101344]};
+    worldmap[101344] = {group: 100413, dif: 5, name: 'Затопленный зал', map: 'Затопленный залКП', route: [101342, 101343]};
+    worldmap[101343] = {group: 100413, dif: 1, name: 'Поросшие мхом камни', map: 'Поросшие мхом камниКП', route: [101344]};
+    //worldmap[] = {group: , dif: 1, name: '', map: 'КП', route: []};
+    
     worldmap[103527] = {group: 103527, dif: 1, name: 'Непроходимая глушь', map: 'Непроходимая глушьКП', route: []};
     worldmap[126131] = {group: 126131, dif: 1, name: 'Перепутье', map: 'Перепутье45767', route: []};
     worldmap[132056] = {group: 132056, dif: 1, name: 'Потаённый туннель', map: 'Потаённый туннельКП', route: []};
@@ -2767,7 +2779,6 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[104699] = {group: 131218, dif: 1, name: 'Кристальный родник', map: 'Кристальный родникКП', route: [131432]};
     worldmap[131326] = {group: 131218, dif: 1, name: 'Узкий лаз (КП)', map: 'Узкий лазКП', route: [132311, 131432]};
     worldmap[132311] = {group: 131218, dif: 1, name: 'Полянка незабудок', map: 'Полянка незабудокКП', route: [131326, 131219]};
-    //worldmap[] = {group: 131218, dif: 1, name: '', map: 'КП', route: []};
 
     makeHiddenListIDbyMap(200, 200, 300, true);
     makeHiddenListIDbyMap(73000, 7000, 7999, true, 23507, true);
