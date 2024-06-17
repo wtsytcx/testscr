@@ -2689,7 +2689,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
 
     //============================ КРЫЛАТОЕ ПЛЕМЯ ==============================
 
-    worldmap[100100] = {group: 100100, dif: 1, name: '', parent: 80, route: []}
+    worldmap[100150] = {group: 100150, dif: 1, name: '', parent: 80, route: []}
     worldmap[100201] = {group: 100201, dif: 1, name: 'Пещера отголосков', map: 'Пещера отголосковКП', route: [100208, 100212]};
     worldmap[104710] = {group: 104710, dif: 1, name: 'Лужайка душистых цветов', map: 'Лужайка душистых цветовКП', route: [132056, 100415]};
     worldmap[100415] = {group: 100415, dif: 1, name: 'Вересковая пустошь', map: 'Вересковая пустошьКП', route: [104708, 104709, 104710]};
@@ -2745,11 +2745,11 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[100319] = {group: 100319, dif: 1, name: 'Холодная пещера', map: 'Холодная пещераКП', route: [100212, 142837]};
     worldmap[142837] = {group: 100319, dif: 1, name: 'Манящий ароматом уголок', map: 'Манящий ароматом уголокКП', route: [100319]};
     worldmap[136147] = {group: 136147, dif: 1, name: 'Тихое пристанище', map: 'Тихое пристанищеКП', route: [100201, 136146, 100319, 100212, 101638, 136147]};
-    worldmap[136146] = {group: 136146, dif: 1, name: 'Могильник', map: 'МогильникКП', route: []};
     worldmap[100388] = {group: 100388, dif: 1, name: 'Вековое древо', map: 'Вековое древоКП', route: [100212, 134123]};
-    worldmap[134123] = {group: 134123, dif: 1, name: 'Древнее святилище', map: 'Древнее святилищеКП', route: []};
-    worldmap[100387] = {group: 100387, dif: 1, name: 'Пещера знахаря', map: 'Пещера знахаряКП', route: []};
     worldmap[101638] = {group: 101638, dif: 1, name: 'Тайные кустики', map: 'Тайные кустикиКП', route: [100212, 136147]};
+    worldmap[136146] = {group: 136146, dif: 1, name: 'Могильник', map: 'МогильникКП', route: []};
+    worldmap[100387] = {group: 100387, dif: 1, name: 'Пещера знахаря', map: 'Пещера знахаряКП', route: []};
+    worldmap[134123] = {group: 134123, dif: 1, name: 'Древнее святилище', map: 'Древнее святилищеКП', route: []};
 
     worldmap[100260] = {group: 100260, dif: 1, name: 'Сонный уголок', map: 'Сонный уголокКП', route: [100212, 104156, 135223]}; 
     worldmap[104156] = {group: 100260, dif: 1, name: 'Жужжащий туннель', map: 'Жужжащий туннельКП', route: [100260, 101341, 100411]};
