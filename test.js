@@ -47,14 +47,14 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[10] = {group: 0, dif: 1, name: 'Племя Солнца', route: []};
     worldmap[20] = {group: 0, dif: 1, name: 'Деревня', route: []};
     worldmap[30] = {group: 0, dif: 1, name: 'Северный клан', route: []};
-    worldmap[41] = {group: 0, dif: 1, name: 'Нейтралки: Лес', route: []};
-    worldmap[42] = {group: 0, dif: 1, name: 'Нейтралки: Дальние воды', route: []};
-    worldmap[43] = {group: 0, dif: 1, name: 'Нейтралки: Руины', route: []};
-    worldmap[44] = {group: 0, dif: 1, name: 'Нейтралки: Туннели + остров', route: []};
-    worldmap[50] = {group: 0, dif: 1, name: 'Нейтралки', route: []};
+    worldmap[41] = {group: 0, dif: 1, name: 'Нейтралки: Лес (МВ)', route: []};
+    worldmap[42] = {group: 0, dif: 1, name: 'Нейтралки: Дальние воды (МВ)', route: []};
+    worldmap[43] = {group: 0, dif: 1, name: 'Нейтралки: Руины (МВ)', route: []};
+    worldmap[44] = {group: 0, dif: 1, name: 'Нейтралки: Туннели + остров (МВ)', route: []};
+    worldmap[50] = {group: 0, dif: 1, name: 'Нейтралки (МВ)', route: []};
     worldmap[70] = {group: 0, dif: 1, name: '7ДЛ (ВЛ)', route: []};
     worldmap[80] = {group: 0, dif: 1, name: 'Крылатое племя', route: []};
-    worldmap[81] = {group: 0, dif: 1, name: 'ОНЛОП', route: []};
+    worldmap[81] = {group: 0, dif: 1, name: 'ОНЛОП (ВТ)', route: []};
     // ==================================================================================
 
 
@@ -2700,6 +2700,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2008] = {group: 104708, dif: 1, name: 'Равнина вольных ветров', map: 'Равнина вольных ветровКП', route: [2009, 2003]};
     worldmap[2009] = {group: 104708, dif: 1, name: 'Чарующая поляна', map: 'Чарующая полянаКП', route: [2010, 2008]};
     worldmap[2010] = {group: 100400, dif: 1, name: 'Глухая топь', map: 'Глухая топьКП', route: [2082, 2011, 2009]};
+    worldmap[2082] = {group: 103527, dif: 1, name: 'Непроходимая глушь', map: 'Непроходимая глушьКП', route: [2201, 2010, 2311]};
     worldmap[2011] = {group: 100416, dif: 1, name: 'Воющая чащоба', map: 'Воющая чащобаКП', route: [2010, 2013, 2012, 2083]};
     worldmap[2012] = {group: 104707, dif: 1, name: 'Грибная опушка', map: 'Грибная опушкаКП', route: [2011]};
     worldmap[2013] = {group: 104704, dif: 1, name: 'Редколесье', map: 'РедколесьеКП', route: [2015, 2011, 2005]};
@@ -2724,7 +2725,6 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2031] = {group: 100413, dif: 2, name: 'Река призрачных душ', map: 'Река призрачных душКП', route: [2030, 2032]};
     worldmap[2032] = {group: 100413, dif: 5, name: 'Затопленный зал', map: 'Затопленный залКП', route: [2031, 2033]};
     worldmap[2033] = {group: 100413, dif: 1, name: 'Поросшие мхом камни', map: 'Поросшие мхом камниКП', route: [2032]};
-    //worldmap[] = {group: , dif: 1, name: '', map: 'КП', route: []};
 
     worldmap[2034] = {group: 100212, dif: 1, name: 'Вольная обитель', map: 'Вольная обительКП', route: [2001, 2034, 2035, 2044, 2046, 2048, 2049, 2052, 2054, 2050]}; 
     worldmap[2035] = {group: 100212, dif: 1, name: 'Солнечная лужайка (КП)', map: 'Солнечная лужайкаКП', route: [2038, 2036, 2034]};
@@ -2775,7 +2775,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2079] = {group: 131218, dif: 1, name: 'Кристальный родник', map: 'Кристальный родникКП', route: [2078]};
     worldmap[2080] = {group: 131218, dif: 1, name: 'Узкий лаз (КП)', map: 'Узкий лазКП', route: [2081, 2078]};
     worldmap[2081] = {group: 131218, dif: 1, name: 'Полянка незабудок', map: 'Полянка незабудокКП', route: [2080, 2073]};
-    worldmap[2082] = {group: 103527, dif: 1, name: 'Непроходимая глушь', map: 'Непроходимая глушьКП', route: []};
+
     worldmap[2083] = {group: 126131, dif: 1, name: 'Перепутье', map: 'Перепутье45767', route: []};
     worldmap[2084] = {group: 132056, dif: 1, name: 'Потаённый туннель', map: 'Потаённый туннельКП', route: []};
 
@@ -2790,7 +2790,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2206] = {group: 116366, dif: 1, name: 'Заброшенная лачуга', map: 'Заброшенная лачугаОНЛОП', route: [2207, 2216, 2215]};
     worldmap[2207] = {group: 116369, dif: 1, name: 'Ельник (ОНЛОП)', map: 'Ельник ОНЛОП', route: [2206, 2208, 2221, 2218]};
     worldmap[2208] = {group: 116371, dif: 1, name: 'Древний храм', map: 'Древний храмОНЛОП', route: [2209, 2213, 2218, 2207]};
-    worldmap[2209] = {group: 2209, dif: 1, name: 'Кругогор', map: 'КругогорОНЛОП', route: [2210, 2202, 2213, 2208]};
+    worldmap[2209] = {group: 2209, dif: 1, name: 'Крутогор', map: 'КрутогорОНЛОП', route: [2210, 2202, 2213, 2208]};
     worldmap[2210] = {group: 117080, dif: 1, name: 'Пьянящая ложбинка', map: 'Пьянящая ложбинкаОНЛОП', route: [2211, 2209]};
     worldmap[2211] = {group: 117107, dif: 1, name: 'Шепчущий луг', map: 'Шепчущий лугОНЛОП', route: [2202, 2298, 2212, 2210, 2206]};
     worldmap[2212] = {group: 2212, dif: 1, name: 'Забытые руины', map: 'Забытые руиныОНЛОП', route: [2211, 2213]};
@@ -2803,13 +2803,92 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2219] = {group: 2219, dif: 1, name: 'Лес погибели', map: 'Лес погибелиОНЛОП', route: [2218, 2220]};
     worldmap[2220] = {group: 2220, dif: 1, name: 'Увядшая тропа', map: 'Увядшая тропаОНЛОП', route: [2219, 2206, 2202, 2210]};
     worldmap[2221] = {group: 2221, dif: 1, name: 'Начало елового леса', map: 'Начало елового лесаОНЛОП', route: [2207, 2222]};
-    worldmap[2222] = {group: 2222, dif: 1, name: 'Тропинка', map: 'ТропинкаОНЛОП', route: [2210, 2296, 2202, 2221, 2206]};
-    //worldmap[] = {group: , dif: 1, name: '', map: 'ОНЛОП', route: []};
+    worldmap[2222] = {group: 2222, dif: 1, name: 'Тропинка', map: 'ТропинкаОНЛОП', route: [2210, 2301, 2202, 2221, 2206]};
 
     worldmap[2299] = {group: 2299, dif: 1, name: 'Опушка Зачарованного леса', map: 'Опушка Зачарованного лесаОНЛОП', route: []}; //ЭЗ
     worldmap[2298] = {group: 2298, dif: 1, name: 'Магический портал', map: 'Магический порталОНЛОП', route: []}; //КЛД
     worldmap[2297] = {group: 2297, dif: 1, name: 'Тенистая лужайка', map: 'Тенистая лужайкаОНЛОП', route: []}; //ПНТ
-    worldmap[2296] = {group: 2296, dif: 1, name: 'Крутой склон', map: 'Крутой склонОНЛОП', route: []}; //Чернолесье
+
+    //======================================= ЧЕРНОЛЕСЬЕ ==============================================
+
+    worldmap[2300] = {group: 2300, dif: 1, name: '', parent: 82, route: []}
+    worldmap[2301] = {group: 117596, dif: 1, name: 'Крутой склон', map: 'Крутой склонЧЛ', route: [2301, 2302, 2222]};
+    worldmap[2302] = {group: 117598, dif: 1, name: 'Берег', map: '  БерегЧЛ', route: [2305, 2304, 2303]};
+    worldmap[2303] = {group: 139361, dif: 1, name: 'Насыпь ракушек', map: 'Насыпь ракушекЧЛ', route: [2302]};
+    worldmap[2305] = {group: 117599, dif: 1, name: 'Поляна чабреца', map: 'Поляна чабрецаЧЛ', route: [2307, 2302, 2305]};
+    worldmap[2306] = {group: 2306, dif: 1, name: 'Поваленное дерево', map: 'Поваленное деревоЧЛПНТ', route: [2305, 0, 2297]};
+    worldmap[2307] = {group: 117600, dif: 1, name: 'Рощица', map: 'РощицаЧЛ', route: [2308, 2313, 2305, 2326]};
+    worldmap[2308] = {group: 117593, dif: 1, name: 'Заросли ольхи', map: 'Заросли ольхиЧЛ', route: [2309, 2307, 2313]};
+    worldmap[2309] = {group: 117594, dif: 1, name: 'Сфагновый торфяник', map: 'Сфагновый торфяникЧЛ', route: [2311, 2308, 2310]};
+    worldmap[2310] = {group: 117595, dif: 1, name: 'Омут', map: 'ОмутЧЛ', route: [2309, 2301]};
+    worldmap[2311] = {group: 141943, dif: 1, name: 'Елань', map: 'ЕланьЧЛ', route: [2309, 2082, 2312]};
+    worldmap[2312] = {group: 142508, dif: 1, name: 'Тенистая прогалина', map: 'Тенистая прогалинаЧЛ', route: [2311]};
+    worldmap[2313] = {group: 117500, dif: 1, name: 'Тенистая чащоба', map: 'Тенистая чащобаЧЛ', route: [2314, 2308, 2335, 2307, 2325]};
+    worldmap[2314] = {group: 117586, dif: 1, name: 'Расколотый валун', map: 'Расколотый валунЧЛ', route: [2315, 2313]};
+    worldmap[2315] = {group: 117587, dif: 1, name: 'Курум', map: 'КурумЧЛ', route: [2317, 2318, 2314, 2316]};
+    worldmap[2317] = {group: 136694, dif: 1, name: 'Колыбель Анулан', map: 'Колыбель АнуланЧЛ', route: [2315]};
+    worldmap[2318] = {group: 117588, dif: 1, name: 'Отвесная тропа', map: 'Отвесная тропаЧЛ', route: [2320, 2369, 2357, 2318, 2319, 2318]};
+    worldmap[2319] = {group: 2319, dif: 1, name: 'Косулина тропа', map: 'Косулина тропаЧЛ', route: []}; //лазалка
+    worldmap[2320] = {group: 117589, dif: 1, name: 'Каменистый перевал', map: 'Каменистый перевалЧЛ', route: [2322, 2321, 2318]};
+    worldmap[2321] = {group: 117591, dif: 1, name: 'Кричащая пещера', map: 'Кричащая пещераЧЛ', route: [2320]};
+    worldmap[2322] = {group: 117590, dif: 1, name: 'Вершина', map: 'ВершинаЧЛ', route: [2324, 2323, 2320]};
+    worldmap[2324] = {group: 138223, dif: 1, name: 'Тропа средь камней', map: 'Тропа средь камнейЧЛ', route: [2325, 2322]};
+    worldmap[2325] = {group: 138224, dif: 5, name: 'Где-гуляет-ветер', map: 'Где гуляет ветерЧЛ', route: [2324]};
+    worldmap[2325] = {group: 117499, dif: 1, name: 'Пуща', map: 'ПущаЧЛ', route: [2313, 2326, 2327]};
+    worldmap[2326] = {group: 117592, dif: 1, name: 'Глубокий овраг', map: 'Глубокий оврагЧЛ', route: [2307, 2325]};
+    worldmap[2327] = {group: 117583, dif: 1, name: 'Непролазный бурелом', map: 'Непролазный буреломЧЛ', route: [2325, 2328]};
+    worldmap[2328] = {group: 117584, dif: 1, name: 'Тальник', map: 'ТальникЧЛ', route: [2329, 2327, 2331, 2333]};
+    worldmap[2329] = {group: 136693, dif: 1, name: 'Вакута', map: 'ВакутаЧЛ', route: [2330, 2328]};
+    worldmap[2330] = {group: 136692, dif: 1, name: 'Священная роща', map: 'Священная рощаЧЛ', route: [2329]};
+    worldmap[2331] = {group: 120065, dif: 1, name: 'Окраина леса', map: 'Окраина лесаЧЛ', route: [2328, 2333, 2332]};
+    worldmap[2332] = {group: 137132, dif: 1, name: 'Редколесье (Чернолесье)', map: 'РедколесьеЧЛ', route: [2331]};
+    worldmap[2333] = {group: 117585, dif: 1, name: 'Шумная речушка', map: 'Шумная речушкаЧЛ', route: [2334, 2335, 2328, 2331]};
+
+    worldmap[2335] = {group: 117553, dif: 1, name: 'Таёжная тропа', map: 'Таёжная тропаЧЛ', route: [2313, 2337, 2336]};
+    worldmap[2336] = {group: 118240, dif: 1, name: 'Совиные заросли', map: 'Совиные зарослиЧЛ', route: [2335]};
+    worldmap[2337] = {group: 117548, dif: 1, name: 'Морозная поляна', map: 'Морозная полянаЧЛ', route: [2338, 2345, 2341, 2335, 2346, 2348, 2350, 2354]};
+    worldmap[2338] = {group: 117550, dif: 1, name: 'Вековое древо', map: 'Вековое древоЧЛ', route: [2337, 2340, 2339, 2346]};
+    worldmap[2340] = {group: 133407, dif: 1, name: 'Нижние ветки', map: 'Нижние веткиЧЛ', route: [2340, 2338, 2341]};
+    worldmap[2341] = {group: 119598, dif: 1, name: 'Тёплые камни', map: 'Тёплые камниЧЛ', route: [2342, 2345, 2344, 2340, 2337]};
+    worldmap[2342] = {group: 118502, dif: 1, name: 'Обжитая айн прогалина', map: 'Обжитая айн прогалинаЧЛ', route: [2343, 2342, 2341]};
+    worldmap[2343] = {group: 134393, dif: 1, name: 'Копытца Инэ', map: 'Копытца ИнэЧЛ', route: [2442]};
+    worldmap[2344] = {group: 138598, dif: 1, name: 'Укрытие между камнями', map: 'Укрытие между камнямиЧЛ', route: [2344, 2341]};
+    worldmap[2345] = {group: 137174, dif: 1, name: 'Край поляны', map: 'Край поляныЧЛ', route: [2345, 2337, 2341]};
+    worldmap[2346] = {group: 117560, dif: 1, name: 'Каменная гряда', map: 'Каменная грядаЧЛ', route: [2338, 2337, 2347]};
+    worldmap[2347] = {group: 117561, dif: 1, name: 'Журчащий ручеёк', map: 'Журчащий ручеёкЧЛ', route: [2346]};
+    worldmap[2348] = {group: 117557, dif: 1, name: 'Костлявая нора', map: 'Костлявая нораЧЛ', route: [2337, 2349]};
+    worldmap[2349] = {group: 117557, dif: 1, name: 'Отнорок', map: 'ОтнорокЧЛ', route: [2348]};
+    worldmap[2350] = {group: 117624, dif: 1, name: 'Поприще', map: 'ПоприщеЧЛ', route: [2351, 2353, 2352, 2337]};
+    worldmap[2351] = {group: 117624, dif: 1, name: 'Поприще №1', map: 'Поприще1ЧЛ', route: [2350]};
+    worldmap[2352] = {group: 117624, dif: 1, name: 'Поприще №2', map: 'Поприще2ЧЛ', route: [2350]};
+    worldmap[2353] = {group: 117624, dif: 1, name: 'Поприще №3', map: 'Поприще3ЧЛ', route: [2350]};
+
+    worldmap[2354] = {group: 117549, dif: 1, name: 'Поляна для отдыха', map: 'Поляна для отдыхаЧЛ', route: [2337, 2355, 2371, 2367]};
+    worldmap[2355] = {group: 117549, dif: 1, name: 'Лисья нора', map: 'Лисья нораЧЛ', route: [2354, 2371, 2356, 2358, 2357]};
+    worldmap[2356] = {group: 117549, dif: 1, name: 'Укромный уголок', map: 'Укромный уголокЧЛ', route: [2355]};
+    worldmap[2357] = {group: 117549, dif: 1, name: 'Тёплые гнёздышки', map: 'Тёплые гнёздышкиЧЛ', route: [2355]};
+    worldmap[2358] = {group: 117549, dif: 1, name: 'Тайный спуск', map: 'Тайный спускЧЛ', route: [2355, 2359]};
+    worldmap[2359] = {group: 117549, dif: 1, name: 'Глубокая язвина', map: 'Глубокая язвинаЧЛ', route: [2358, 2372, 2360]};
+    worldmap[2360] = {group: 117549, dif: 1, name: 'Буерак', map: 'БуеракЧЛ', route: [2359, 2361]};
+    worldmap[2361] = {group: 117549, dif: 1, name: 'Кедровый стланик', map: 'Кедровый стланикЧЛ', route: [2360, 2362]};
+    worldmap[2362] = {group: 117549, dif: 1, name: 'Поросший яр', map: 'Поросший ярЧЛ', route: [2364, 2361, 2363]};
+    worldmap[2363] = {group: 117549, dif: 1, name: 'Густая урема', map: 'Густая уремаЧЛ', route: [2364, 2362]};
+    worldmap[2364] = {group: 117549, dif: 1, name: 'Грядина', map: 'ГрядинаЧЛ', route: [2365, 2362, 2363]};
+    worldmap[2365] = {group: 117549, dif: 1, name: 'Лощина', map: 'ЛощинаЧЛ', route: [2366, 2364]};
+    worldmap[2366] = {group: 117549, dif: 1, name: 'Суходол', map: 'СуходолЧЛ', route: [2367, 2365]};
+    worldmap[2367] = {group: 117549, dif: 1, name: 'Терновая ложбинка', map: 'Терновая ложбинкаЧЛ', route: [2354, 2371, 2366, 2368, 2369, 2370]};
+    worldmap[2368] = {group: 117549, dif: 1, name: 'Соловьиные перья', map: 'Соловьиные перьяЧЛ', route: [2367]};
+    worldmap[2369] = {group: 117549, dif: 1, name: 'Сизые ягоды', map: 'Сизые ягодыЧЛ', route: [2367]};
+    worldmap[2370] = {group: 117549, dif: 1, name: 'Кедровые шишки (Чернолесье)', map: 'Кедровые шишкиЧЛ', route: [2367]};
+    worldmap[2371] = {group: 117549, dif: 1, name: 'Тёмный лаз', map: 'Тёмный лазЧЛ', route: [2354, 2355, 2367, 2372]};
+    worldmap[2372] = {group: 117549, dif: 1, name: 'Нора, пропахшая молоком', map: 'Нора пропахшая молокомЧЛ', route: [2372, 2371, 2359]};
+    //worldmap[] = {group: 117549, dif: 1, name: '', map: 'ЧЛ', route: []};
+
+    worldmap[2323] = {group: 2323, dif: 1, name: 'Лабиринт', map: 'ЛабиринтЧЛ', route: []};
+    worldmap[2304] = {group: 2304, dif: 1, name: 'Бездонное озеро', map: 'Бездонное озероЧЛ', route: []};
+    worldmap[2316] = {group: 140823, dif: 1, name: 'Туннель', map: 'ТуннельЧЛ', route: []}; ////////
+    worldmap[2334] = {group: 2334, dif: 1, name: 'Лесной ручеёк', map: 'Лесной ручеёкЧЛ', route: []}; //Острова
+    worldmap[2339] = {group: 2339, dif: 1, name: 'Обитель духов', map: 'Обитель духовЧЛ', route: []};
 
     makeHiddenListIDbyMap(200, 200, 300, true);
     makeHiddenListIDbyMap(73000, 7000, 7999, true, 23507, true);
