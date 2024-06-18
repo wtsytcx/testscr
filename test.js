@@ -2833,8 +2833,8 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2320] = {group: 117589, dif: 1, name: 'Каменистый перевал', map: 'Каменистый перевалЧЛ', route: [2322, 2321, 2318]};
     worldmap[2321] = {group: 117591, dif: 1, name: 'Кричащая пещера', map: 'Кричащая пещераЧЛ', route: [2320]};
     worldmap[2322] = {group: 117590, dif: 1, name: 'Вершина', map: 'ВершинаЧЛ', route: [2324, 2323, 2320]};
-    worldmap[2324] = {group: 138223, dif: 1, name: 'Тропа средь камней', map: 'Тропа средь камнейЧЛ', route: [2325, 2322]};
-    worldmap[2325] = {group: 138224, dif: 5, name: 'Где-гуляет-ветер', map: 'Где гуляет ветерЧЛ', route: [2324]};
+    worldmap[2324] = {group: 138223, dif: 1, name: 'Тропа средь камней', map: 'Тропа средь камнейЧЛ', route: [2384, 2322]};
+    worldmap[2384] = {group: 138224, dif: 5, name: 'Где-гуляет-ветер', map: 'Где гуляет ветерЧЛ', route: [2324]};
     worldmap[2325] = {group: 117499, dif: 1, name: 'Пуща', map: 'ПущаЧЛ', route: [2313, 2326, 2327]};
     worldmap[2326] = {group: 117592, dif: 1, name: 'Глубокий овраг', map: 'Глубокий оврагЧЛ', route: [2307, 2325]};
     worldmap[2327] = {group: 117583, dif: 1, name: 'Непролазный бурелом', map: 'Непролазный буреломЧЛ', route: [2325, 2328]};
