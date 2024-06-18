@@ -2828,7 +2828,7 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[2314] = {group: 117586, dif: 1, name: 'Расколотый валун', map: 'Расколотый валунЧЛ', route: [2315, 2313]};
     worldmap[2315] = {group: 117587, dif: 1, name: 'Курум', map: 'КурумЧЛ', route: [2317, 2318, 2314, 2316]};
     worldmap[2317] = {group: 136694, dif: 1, name: 'Колыбель Анулан', map: 'Колыбель АнуланЧЛ', route: [2315]};
-    worldmap[2318] = {group: 117588, dif: 1, name: 'Отвесная тропа', map: 'Отвесная тропаЧЛ', route: [2320, 2369, 2357, 2318, 2319, 2318]};
+    worldmap[2318] = {group: 117588, dif: 1, name: 'Отвесная тропа', map: 'Отвесная тропаЧЛ', route: [2320, 2368, 2357, 2318, 2319, 2318]};
     worldmap[2319] = {group: 2319, dif: 1, name: 'Косулина тропа', map: 'Косулина тропаЧЛ', route: []}; //лазалка
     worldmap[2320] = {group: 117589, dif: 1, name: 'Каменистый перевал', map: 'Каменистый перевалЧЛ', route: [2322, 2321, 2318]};
     worldmap[2321] = {group: 117591, dif: 1, name: 'Кричащая пещера', map: 'Кричащая пещераЧЛ', route: [2320]};
