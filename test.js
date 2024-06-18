@@ -1720,7 +1720,8 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[11748] = {group: 11202, n: 547, dif: 10, name: 'Лабиринт Искушений', map: 'Лабиринт Искушений9244', route: [11201, 11750]}; //309
     worldmap[11749] = {group: 11202, n: 548, dif: 1, name: 'Лабиринт Искушений', map: 'Лабиринт Искушений3252938596', route: [11750, 11750, 11750, 11201, 11750]};
 
-    worldmap[11750] = {group: 11750, n: 0, dif: 1, name: 'Оазис 7 ЛИ ЛВ', map: 'Оазис5156', route: [14000, 11202]};
+    worldmap[11750] = {group: 11750, n: 0, dif: 1, name: 'Оазис 7 ЛИ ЛВ', map: 'Оазис5156', route: [0, 11202]};
+    /*
     worldmap[11751] = {group: 11751, count: 250, n: 1, dif: 1, name: 'Лабиринт Внимательности', map: 'Лабиринт Внимательности11', route: [11750, 14000]}; //250
     worldmap[11752] = {group: 11751, n: 2, dif: 1, name: 'Лабиринт Внимательности', map: 'Лабиринт Внимательности12', route: [11750, 14000]}; //249
     worldmap[11753] = {group: 11751, n: 3, dif: 1, name: 'Лабиринт Внимательности', map: 'Лабиринт Внимательности13', route: [11750, 14000]}; //248
@@ -2273,8 +2274,10 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     worldmap[14298] = {group: 12001, n: 298, dif: 1, name: 'Лабиринт Бессилия', map: 'Лабиринт Бессилия1298', route: [12300, 14000, 14000]}; //2
     worldmap[14299] = {group: 12001, n: 299, dif: 1, name: 'Лабиринт Бессилия', map: 'Лабиринт Бессилия1299', route: [14000, 12300, 12300]}; //1
 
-    worldmap[12300] = {group: 12300, n: 0, dif: 1, name: 'Оазис 9 ЛБ ЛС', map: 'Оазис83485', route: [0, 0]};
+    worldmap[12300] = {group: 12300, n: 0, dif: 1, name: 'Оазис 9 ЛБ ЛС', map: 'Оазис83485', route: [14000, 13000]};
 
+    worldmap[13000] = {group: 13000, n: 0, dif: 1, name: 'Оазис 10 ЛС ЛЗ', map: 'Оазис9462', route: [0, 0]};    
+    */
     // ======= ДАЛЬНИЕ ВОДЫ =================================================================
     worldmap[29999] = {group: 29999, dif: 1, name: '_ДВ', route: [], parent: 42};
 
@@ -3217,8 +3220,8 @@ function la_makemap(worldmap, hidden, hiddenIDList, movemap)
     makeHiddenListIDbyMap(10302, 10301, 10299, true, 10302, true);
     makeHiddenListIDbyMap(11001, 11001, 11100, true, 11001, true);
     makeHiddenListIDbyMap(11202, 11202, 11749, true, 11202, true);
-    makeHiddenListIDbyMap(11751, 11751, 12000, true, 11751, true);
-    makeHiddenListIDbyMap(12001, 12001, 12300, true, 12001, true);
+    //makeHiddenListIDbyMap(11751, 11751, 12000, true, 11751, true);
+    //makeHiddenListIDbyMap(12001, 12001, 12300, true, 12001, true);
 
     [200, 23450, 23453, 23457, 23461, 23491, 23501, 23507, 23514, 23540, 23541, 
      30013, 30000, 30013, 30601, 82927, 73000, 
